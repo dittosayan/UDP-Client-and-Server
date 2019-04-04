@@ -1,11 +1,11 @@
 # UDP-Client-and-Server
 
 The client application should be executed using the following command:
-./client <ServerIP> <ServerPort> <P> <TTL> <NumPackets>
+./client ServerIP ServerPort P TTL NumPackets
   
 
 The server application should be executed using the following command:
-./server <ServerPort>
+./server ServerPort
 
 Here NumPackets could be anything between 1 to 50 and for each packet, and
 corresponding sequence number should be generated.
